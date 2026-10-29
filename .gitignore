@@ -1,0 +1,63 @@
+# Automatically downloaded model weights & third-party repositories
+weights/
+third_party/
+*.pth
+*.ckpt
+*.onnx
+*.pt
+*.safetensors
+*.bin
+
+# Videos & flight datasets
+*.mp4
+*.avi
+dataset/
+flights/
+indoor_drone_dataset/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test temp files & caches
+tmp_pytest/
+
+# Video recordings & telemetry logs
+flights/
+*.mp4
+*.csv
+
+# LMDB sparse caches & archives
+*.lmdb/
+*.mdb
+*.zip
+
+# Local training dataset images (transferred via zip archive)
+dataset/train/traj_*
+dataset/test/traj_*
+eval_snapshots/
+analysis_outputs/
+logs/
+
+
+# Allow signed real flight records
+!real_flights_signed/
+!real_flights_signed/**
+
+autopilots_benchmark/
+*.jpg

@@ -1,0 +1,12 @@
+torch>=2.1.0
+torchvision>=0.16.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+PyYAML>=6.0
+diffusers>=0.25.0
+einops>=0.7.0
+efficientnet-pytorch>=0.7.1
+warmup-scheduler>=0.3
+gdown>=5.1.0
+djitellopy>=2.5.0
+pytest>=7.4.0
