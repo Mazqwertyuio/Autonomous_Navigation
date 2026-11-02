@@ -1,6 +1,6 @@
 # Tello Autonomous Navigation
 
-This repository contains a set of autonomous navigation experiments for the DJI Tello drone. It includes a real-flight controller and several navigation approaches for indoor flight and person-following behavior.
+This project contains a set of autonomous navigation experiments for the DJI Tello drone. The repository includes a real-flight control script and several navigation modes for indoor flight and person-following behavior.
 
 ## Included modes
 
